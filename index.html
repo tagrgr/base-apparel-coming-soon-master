@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/variable.css">
   <link rel="stylesheet" href="./src/css/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,16 +23,16 @@
 
     <main class="container-info">
       <section class="landing-page-info">
-        <h1 class="header-info">We're coming soon</h1>
+        <h1 class="header-info">We're <span class="comingsoon">coming soon</span></h1>
         <p class="subtext-info">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
       </section>
 
       <section class="user-info">
         <form id="info-form" class="container-form" novalidate>
-        <input id="info-input" class="form-input" type="text" placeholder="Email Address" pattern="[^\s@]+@[^\s@]+\.[^\s@]+" required>
-        <button id="submit-btn" class="form-btn" type="submit">
-          <img src="./images/icon-arrow.svg" alt="arrow button">
-        </button>
+          <input id="info-input" class="form-input" type="text" placeholder="Email Address" pattern="[^\s@]+@[^\s@]+\.[^\s@]+" required>
+          <button id="submit-btn" class="form-btn" type="submit">
+            <img src="./images/icon-arrow.svg" alt="arrow button">
+          </button>
         </form>
         <div id="error" class="error">
           <p class="error-msg">Please provide a valid email</p>
