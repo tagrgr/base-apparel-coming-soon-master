@@ -1,0 +1,90 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --gray900: #423A3A;
+    --red400: #F96464;
+    --pink400: #CE9898;
+    --gradient1: #F8BFBF, #EE8B8B;
+    --gradient2: #fff, #FFF4F4;
+    --gradient3: #FFF1F1, #fff;
+}
+
+
+/* FONT PRESET
+
+   Text Preset 1 (Light)
+Josefin Sans Light
+64px
+100% Line Height
+17.5px Letter Spacing */
+
+/* Text Preset 1 (SemiBold)
+Josefin Sans SemiBold
+64px
+110% Line Height
+17.5px Letter Spacing */
+
+/* Text Preset 2 (Light)
+Josefin Sans Light
+40px
+100% Line Height
+10px Letter Spacing */
+
+/* Text Preset 2 (SemiBold)
+Josefin Sans SemiBold
+40px
+100% Line Height
+10px Letter Spacing */
+
+/* Text Preset 3
+Josefin Sans Regular
+16px
+215% Line Height
+0px Letter Spacing */
+
+/* Text Preset 4
+Josefin Sans Regular
+14px
+155% Line Height
+0px Letter Spacing */
+
+/* Text Preset 5
+Josefin Sans Regular
+13px
+215% Line Height
+0px Letter Spacing */
+
+
+
+/* SPACING
+
+spacing-0
+0px
+
+spacing-100
+8px
+
+spacing-200
+16px
+
+spacing-300
+24px
+
+spacing-400
+32px
+
+spacing-500
+40px
+
+spacing-800
+64px
+
+spacing-1000
+80px
+
+spacing-1100
+88px
+
+spacing-1700
+136px 
+*/

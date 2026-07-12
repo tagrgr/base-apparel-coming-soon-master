@@ -15,17 +15,37 @@
 </head>
 <body>
 
-  We're coming soon
+  <div class="container">
+    <header class="container-logo" id="logo">
+      <img class="logo-img" src="./images/logo.svg" alt="logo base apparel">
+    </header>
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    <main class="container-info">
+      <section class="landing-page-info">
+        <h1 class="header-info">We're coming soon</h1>
+        <p class="subtext-info">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      </section>
 
-  Email Address
-  
-      <footer class="attribution">
+      <section class="user-info">
+        <form id="info-form" class="container-form" novalidate>
+        <input id="info-input" class="form-input" type="text" placeholder="Email Address" pattern="[^\s@]+@[^\s@]+\.[^\s@]+" required>
+        <button id="submit-btn" class="form-btn" type="submit">
+          <img src="./images/icon-arrow.svg" alt="arrow button">
+        </button>
+        </form>
+        <div id="error" class="error">
+          <p class="error-msg">Please provide a valid email</p>
+          <img src="./images/icon-error.svg" alt="error img">
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
       Coded by <a href="#">Tiago de Gregori</a>.
     </footer>
+  </div>
+
 </body>
 <script src="./src/js/script.js"></script>
 </html>
