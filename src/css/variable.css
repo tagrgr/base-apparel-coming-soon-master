@@ -4,9 +4,9 @@
     --gray900: #423A3A;
     --red400: #F96464;
     --pink400: #CE9898;
-    --gradient1: #F8BFBF, #EE8B8B;
-    --gradient2: #fff, #FFF4F4;
-    --gradient3: #FFF1F1, #fff;
+    --gradient1: linear-gradient(61deg, #F8BFBF, #EE8B8B);
+    --gradient2: linear-gradient(0deg, #fff, #FFF4F4);
+    --gradient3: linear-gradient(0deg, #FFF1F1, #fff);
 }
 
 
