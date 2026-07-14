@@ -92,15 +92,26 @@ body {
 }
 
 .container-form .form-btn:hover {
-    opacity: 50%;
+    background: var(--gradient4);
+    /* box-shadow: 0px 20px 20px rgba(198, 110, 110, 0.4); */
+}
+
+.container-form .error-icon {
+    position: absolute;
+    right: 25%;
+}
+
+.error-msg {
+    color: var(--red400);
+    padding: 10px 32px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 215%;
+    position: relative;
 }
 
 .error {
-    /* display: none; */
-    color: var(--red400);
-    padding: 0 32px;
-    font-size: 13px;
-    line-height: 215%;
+    display: none;
 }
 
 .attribution { 

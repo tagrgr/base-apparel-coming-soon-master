@@ -28,16 +28,14 @@
       </section>
 
       <section class="user-info">
-        <form id="info-form" class="container-form" novalidate>
-          <input id="info-input" class="form-input" type="text" placeholder="Email Address" pattern="[^\s@]+@[^\s@]+\.[^\s@]+" required>
-          <button id="submit-btn" class="form-btn" type="submit">
+        <form class="container-form" id="info-form" novalidate>
+          <input class="form-input" id="info-input" type="text" placeholder="Email Address" pattern="[^\s@]+@[^\s@]+\.[^\s@]+" required>
+          <button class="form-btn" id="submit-btn" type="submit">
             <img src="./images/icon-arrow.svg" alt="arrow button">
           </button>
+          <img class="error-icon error" src="./images/icon-error.svg" alt="error icon">
         </form>
-        <div id="error" class="error">
-          <p class="error-msg">Please provide a valid email</p>
-          <img src="./images/icon-error.svg" alt="error img">
-        </div>
+        <p class="error-msg error">Please provide a valid email</p>
       </section>
     </main>
 

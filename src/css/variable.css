@@ -7,6 +7,7 @@
     --gradient1: linear-gradient(61deg, #F8BFBF, #EE8B8B);
     --gradient2: linear-gradient(0deg, #fff, #FFF4F4);
     --gradient3: linear-gradient(0deg, #FFF1F1, #fff);
+    --gradient4: linear-gradient(135deg, hsl(0, 80%, 92%), hsl(0, 74%, 82%));
 }
 
 
