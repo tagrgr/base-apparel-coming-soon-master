@@ -64,7 +64,6 @@ body {
 .container-form .form-input {
     font-size: 16px;
     line-height: 215%;
-    /* letter-spacing: 0; */
     color: var(--gray900);
     width: 100%;
     border: 0;
@@ -83,9 +82,9 @@ body {
     border: 0;
     border-radius: 28px;
     position: absolute;
-    right: -1px;
-    top: -1px;
-    height: 105%;
+    right: -1.5px;
+    top: -1.5px;
+    height: 106%;
     box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.4);
     background: var(--gradient1);
     cursor: pointer;
@@ -93,7 +92,12 @@ body {
 
 .container-form .form-btn:hover {
     background: var(--gradient4);
-    /* box-shadow: 0px 20px 20px rgba(198, 110, 110, 0.4); */
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.5);
+}
+
+.container-form .form-input:valid + .form-btn {
+    background: var(--gradient4);
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.5);
 }
 
 .container-form .error-icon {
@@ -110,8 +114,20 @@ body {
     position: relative;
 }
 
-.error {
+.error-icon, .error-msg {
     display: none;
+}
+
+.container-form.error .error-icon { 
+    display: inline; 
+}
+
+.container-form.error + .error-msg { 
+    display: block; 
+}
+
+.container-form.error { 
+    border: 2px solid var(--red400); 
 }
 
 .attribution { 
