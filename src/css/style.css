@@ -20,6 +20,10 @@ body {
     padding: 80px 220px 138.5px;
 }
 
+.hero-tablet { 
+    display: none; 
+}
+
 .landing-page-info {
     display: flex;
     flex-direction: column;

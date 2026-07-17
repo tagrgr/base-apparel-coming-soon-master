@@ -1,24 +1,56 @@
 @media (max-width: 900px) {
 
     body {
-        width: 100vw;
-        height: 100vh;
-        font-size: auto;
-        background-image: none;
-        background-repeat: none;
+        background-image: url(../../images/hero-desktop.jpg);
         background-position: none;
         background-size: none;
+        background-color: var(--gradient2);
     }
 
     .container {
         margin: 32px 0 62.5px 0;
-        position: relative;
+        width: 100%;
+        padding: 0;
+    }
+
+    .hero-tablet { 
+        display: block; 
+        width: 100%; 
+        object-fit: cover;
     }
 
     .logo-img {
-        position: absolute;
-        left: 80px;
+        padding: 0 80px;
     }
 
+    .container-info {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin: 64px 161.5px;
+    }
 
+    .landing-page-info {
+        text-align: center;
+        margin: 0;
+        gap: 32px;
+    }
+    
+    .landing-page-info .subtext-info { 
+        line-height: 175%;
+        padding-right: 0;
+    }
+
+    .container-form {
+        width: 100%;
+    }
+
+    .container-form .error-icon {
+        right: 20%;
+    }
+
+    .attribution { 
+        margin-top: 0;
+        font-size: 0.6875rem;
+    }
 }
