@@ -1,14 +1,13 @@
-@media (max-width: 900px) {
-
+@media (min-width:600px) and (max-width: 900px) {
     body {
-        background-image: url(../../images/hero-desktop.jpg);
+        background-image: none;
         background-position: none;
         background-size: none;
         background-color: var(--gradient2);
     }
 
     .container {
-        margin: 32px 0 62.5px 0;
+        margin: 0;
         width: 100%;
         padding: 0;
     }
@@ -17,17 +16,20 @@
         display: block; 
         width: 100%; 
         object-fit: cover;
+        object-position: 50% 15%;
+        height: 540px;
     }
 
     .logo-img {
-        padding: 0 80px;
+        padding: 32px 80px;
+        width: 260px;
     }
 
     .container-info {
         display: flex;
         flex-direction: column;
         gap: 32px;
-        margin: 64px 161.5px;
+        margin: 64px 161.5px 0;
     }
 
     .landing-page-info {
@@ -46,11 +48,70 @@
     }
 
     .container-form .error-icon {
-        right: 20%;
+        right: 25%;
     }
 
     .attribution { 
-        margin-top: 0;
-        font-size: 0.6875rem;
+        margin: 62.5px 0;
+        width: 100%;
+    }
+}
+
+@media (min-width:350px) and (max-width: 599px) {
+    body {
+        background-image: none;
+        background-position: none;
+        background-size: none;
+        background-color: var(--gradient2);
+    }
+
+    .container {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .hero-tablet { 
+        display: block; 
+        width: 100%; 
+        object-fit: cover;
+        object-position: 50% 15%;
+        height: 540px;
+    }
+
+    .logo-img {
+        padding: 32px 80px;
+        width: 260px;
+    }
+
+    .container-info {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin: 64px 161.5px 0;
+    }
+
+    .landing-page-info {
+        text-align: center;
+        margin: 0;
+        gap: 32px;
+    }
+    
+    .landing-page-info .subtext-info { 
+        line-height: 175%;
+        padding-right: 0;
+    }
+
+    .container-form {
+        width: 100%;
+    }
+
+    .container-form .error-icon {
+        right: 25%;
+    }
+
+    .attribution { 
+        margin: 62.5px 0;
+        width: 100%;
     }
 }
